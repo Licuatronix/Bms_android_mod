@@ -186,7 +186,7 @@ InitReturnVal_t CMatRenderContextBase::Init( )
 		nSize = nCommitSize = 1024;
 #endif
 
-		const char *gamedir = CommandLine()->ParmValue("-game", CommandLine()->ParmValue( "-defaultgamedir", "hl2" ) );
+		const char *gamedir = CommandLine()->ParmValue("-game", CommandLine()->ParmValue( "-defaultgamedir", "bms" ) );
 		if ( gamedir && !Q_stricmp( "garrysmod", gamedir ) )
 		{
 			nSize = 4400 * 1024;
