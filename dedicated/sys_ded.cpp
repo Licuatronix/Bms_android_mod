@@ -318,7 +318,7 @@ int CDedicatedAppSystemGroup::Main( )
 	info.m_pInstance = GetAppInstance();
 	info.m_pBaseDirectory = UTIL_GetBaseDir();
 	info.m_pInitialMod = CommandLine()->ParmValue( "-game", "hl2" );
-	info.m_pInitialGame = CommandLine()->ParmValue( "-defaultgamedir", "hl2" );
+	info.m_pInitialGame = CommandLine()->ParmValue( "-defaultgamedir", "bms" );
 	info.m_pParentAppSystemGroup = this;
 	info.m_bTextMode = CommandLine()->CheckParm( "-textmode" );
 
