@@ -39,8 +39,8 @@ extern CSteamAPIContext *steamapicontext;
 // Half-Life 2
 defaultConfigInfo_t HL2Info =
 {
-	"Half-Life 2",
-	"hl2",
+	"Black Mesa",
+	"bms",
 	"halflife2.fgd",
 	"info_player_start",
 	"hl2.exe",
