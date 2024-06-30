@@ -19,7 +19,7 @@ struct SourceAppInfo_t
 static const SourceAppInfo_t s_SteamAppInfo[] = 
 {
 	{	"Source SDK Base",				"sourcetest",	215,	k_App_SDK_BASE },
-	{	"Half-Life 2",					"hl2",			220,	k_App_HL2 } ,
+	{	"Black Mesa",					"bms",			220,	k_App_HL2 } ,
 	{	"Counter-Strike: Source",		"cstrike",		240,	k_App_CSS } ,
 	{	"Day of Defeat: Source",		"dod",			300,	k_App_DODS } ,
 	{	"Half-Life 2: Deathmatch",		"hl2mp",		320,	k_App_HL2MP } ,
